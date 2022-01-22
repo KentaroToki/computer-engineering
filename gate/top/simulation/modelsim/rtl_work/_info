@@ -1,0 +1,494 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/b2cs/work/gate/top/simulation/modelsim
+valu
+Z1 !s110 1639979345
+!i10b 1
+!s100 h[iE<8YdZWMgX9fUz_D=<3
+ICL?`<_0J]m2Dk?=8OhadA2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1568983632
+Z4 8/home/b2cs/work/gate/cpu.v
+Z5 F/home/b2cs/work/gate/cpu.v
+L0 76
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1639979345.000000
+Z8 !s107 /home/b2cs/work/gate/cpu.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/cpu.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+/home/b2cs/work/gate
+Z12 tCvgOpt 0
+vbz_pitch
+R1
+!i10b 1
+!s100 d]S71;7UlF84[oobPSz>U3
+Ia9PBFSXl1][J?;ben]8US0
+R2
+R0
+R3
+Z13 8/home/b2cs/work/gate/io_control.v
+Z14 F/home/b2cs/work/gate/io_control.v
+L0 68
+R6
+r1
+!s85 0
+31
+R7
+Z15 !s107 /home/b2cs/work/gate/io_control.v|
+Z16 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/io_control.v|
+!i113 1
+R10
+R11
+R12
+vbz_time
+R1
+!i10b 1
+!s100 ]DbUU:YbU0`jK4N[;9iZF3
+IQ9LNElVBDbYV7ngXKPz3T2
+R2
+R0
+R3
+R13
+R14
+L0 145
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vcnt3
+R1
+!i10b 1
+!s100 :;j=ngN=Gz0[6WkQMW_>70
+IR[k:d`ldmHRDoeiM:QFQb3
+R2
+R0
+R3
+R4
+R5
+L0 58
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcpu
+R1
+!i10b 1
+!s100 T8CPdAlijYT;[^Wd=l72@1
+IeWfi3WW8ZaokO[;Uz;TK10
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcsg
+R1
+!i10b 1
+!s100 PA[a44X;DFDhfd4IJaUTV3
+IWV`4JiFJLHZQ8o9j;BzEH0
+R2
+R0
+R3
+R4
+R5
+L0 95
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vio_bz
+R1
+!i10b 1
+!s100 4d?ZlO=8<H3SV3oY<N45M1
+I2O`k?G7Xe<K4Rh^Zm=hX[0
+R2
+R0
+R3
+R13
+R14
+L0 42
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vio_control
+R1
+!i10b 1
+!s100 J^N5nICMhNW_KOLoAFD0k0
+IBfUh=[mcXXL[7E[R3NV?j0
+R2
+R0
+R3
+R13
+R14
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vio_port
+R1
+!i10b 1
+!s100 <?<JHQS9mgFYm?>>=fKoQ1
+Ilk7>@32BNbGzhmVdE@e4P2
+R2
+R0
+R3
+8/home/b2cs/work/gate/io_port.v
+F/home/b2cs/work/gate/io_port.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/io_port.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/io_port.v|
+!i113 1
+R10
+R11
+R12
+vio_psw
+R1
+!i10b 1
+!s100 c2CCd=I]3A]AEcYl<9S>?1
+I8iI6JG=9_5g89bam5U8KG3
+R2
+R0
+R3
+R13
+R14
+L0 217
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vio_seg
+R1
+!i10b 1
+!s100 N1`3KKW[3@o]0:EP_l4h>3
+IiDz3@0ZSnN`kAH3ZI8[go2
+R2
+R0
+R3
+R13
+R14
+L0 336
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vmode_control
+R1
+!i10b 1
+!s100 B`QaoXL1@SmggVZSRH9`Q0
+IFG0FV=jT5ieG:5;W27zXF2
+R2
+R0
+w1631725379
+8/home/b2cs/work/gate/mode_control.v
+F/home/b2cs/work/gate/mode_control.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/mode_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/mode_control.v|
+!i113 1
+R10
+R11
+R12
+vpsw_detecter
+R1
+!i10b 1
+!s100 =c35nN=Ba>okR5NDld5GC3
+I:R<G89YEXO5h9bFl0=S@U0
+R2
+R0
+R3
+R13
+R14
+L0 290
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vpsw_pulse
+R1
+!i10b 1
+!s100 DDAf2_Az?3KFK_e<QQUVA0
+IjUGc]K@[0VgR=n@ml8_Zh3
+R2
+R0
+R3
+R13
+R14
+L0 259
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vram
+R1
+!i10b 1
+!s100 84mNFMEI[L`mMjnUJejgi0
+I_KFkAS8=Q7M:jT4Z_bfo?1
+R2
+R0
+R3
+8/home/b2cs/work/gate/ram.v
+F/home/b2cs/work/gate/ram.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/ram.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/ram.v|
+!i113 1
+R10
+R11
+R12
+vreg8
+R1
+!i10b 1
+!s100 ?CDEInVdgcE8:mViZ2`A82
+IYUhYEj6PWZ=k4IXlzY`Kc1
+R2
+R0
+R3
+R4
+R5
+L0 41
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vrom
+R1
+!i10b 1
+!s100 A;M?OO9Q=c;Hh<0DeGd9k1
+IBzf_89F>^zG1h>^^ez^Sb3
+R2
+R0
+R3
+8/home/b2cs/work/gate/rom.v
+F/home/b2cs/work/gate/rom.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/rom.v|
+!i113 1
+R10
+R11
+R12
+vseg_decoder
+R1
+!i10b 1
+!s100 _^Nj6GCC=1ZEIVE2^eMm80
+IFP5R>gkJUeQ7N_E?Nd>P^0
+R2
+R0
+R3
+R13
+R14
+L0 422
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vseg_register
+R1
+!i10b 1
+!s100 4K9<ETJe3=91P0X]DoV0H0
+IaEHj8WmmUz?k_NH60I<ce3
+R2
+R0
+R3
+R13
+R14
+L0 466
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vseg_selecter
+R1
+!i10b 1
+!s100 _`JO[3I6k7O^hGllYTd=o1
+I`[MON1S9I4lgkmOM5He`L2
+R2
+R0
+R3
+R13
+R14
+L0 380
+R6
+r1
+!s85 0
+31
+R7
+R15
+R16
+!i113 1
+R10
+R11
+R12
+vsim
+R1
+!i10b 1
+!s100 49ce<AHIl2S19DkIg;LEX0
+I7HDG6M^[5>5ZiWE;cUCa[0
+R2
+R0
+R3
+8/home/b2cs/work/gate/top/../sim.v
+F/home/b2cs/work/gate/top/../sim.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/top/../sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate/top/..|/home/b2cs/work/gate/top/../sim.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+/home/b2cs/work/gate/top/..
+R12
+vtop
+R1
+!i10b 1
+!s100 Qi5R<3QN>?bc`Sc[_`^Z60
+IW@D4]1<WkSbCal0f1UOfo3
+R2
+R0
+R3
+8/home/b2cs/work/gate/top.v
+F/home/b2cs/work/gate/top.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/top.v|
+!i113 1
+R10
+R11
+R12

@@ -1,0 +1,137 @@
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying /eda/intelFPGA_lite/19.1/modelsim_ase/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/top.v 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/rom.v 
+# -- Compiling module rom
+# 
+# Top level modules:
+# 	rom
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/ram.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/ram.v 
+# -- Compiling module ram
+# 
+# Top level modules:
+# 	ram
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/mode_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/mode_control.v 
+# -- Compiling module mode_control
+# 
+# Top level modules:
+# 	mode_control
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/io_port.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/io_port.v 
+# -- Compiling module io_port
+# 
+# Top level modules:
+# 	io_port
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/io_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/io_control.v 
+# -- Compiling module io_control
+# -- Compiling module io_bz
+# -- Compiling module bz_pitch
+# -- Compiling module bz_time
+# -- Compiling module io_psw
+# -- Compiling module psw_pulse
+# -- Compiling module psw_detecter
+# -- Compiling module io_seg
+# -- Compiling module seg_selecter
+# -- Compiling module seg_decoder
+# -- Compiling module seg_register
+# 
+# Top level modules:
+# 	io_control
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3 {/home/b2cs/work/week3/cpu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3" /home/b2cs/work/week3/cpu.v 
+# -- Compiling module cpu
+# -- Compiling module reg8
+# -- Compiling module cnt3
+# -- Compiling module alu
+# -- Compiling module csg
+# 
+# Top level modules:
+# 	cpu
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+/home/b2cs/work/week3/top/.. {/home/b2cs/work/week3/top/../sim.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:02:52 on Jan 17,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+/home/b2cs/work/week3/top/.." /home/b2cs/work/week3/top/../sim.v 
+# -- Compiling module sim
+# 
+# Top level modules:
+# 	sim
+# End time: 17:02:52 on Jan 17,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sim
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sim 
+# Start time: 17:02:52 on Jan 17,2022
+# Loading work.sim
+# Loading work.cpu
+# Loading work.reg8
+# Loading work.alu
+# Loading work.cnt3
+# Loading work.csg
+# Loading work.rom
+# Loading work.ram
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 5000 us
+# ** Warning: (vsim-3116) Problem reading symbols from linux-gate.so.1 : can not open ELF file.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libpthread.so.0 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/librt.so.1 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libdl.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libm.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libc.so.6 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/ld-linux.so.2 : module was loaded at an absolute address.
+# ** Warning: (vsim-3116) Problem reading symbols from /lib/i386-linux-gnu/libnss_files.so.2 : module was loaded at an absolute address.
+# 
+# stdin: <EOF>
+# End time: 17:03:15 on Jan 17,2022, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 8
