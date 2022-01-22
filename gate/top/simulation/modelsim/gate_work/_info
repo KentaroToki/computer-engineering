@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/b2cs/work/gate/top/simulation/modelsim
+vhard_block
+Z1 !s110 1639979288
+!i10b 1
+!s100 ^gzV<_T13JZRoS^GaOOAj2
+IGg]<hVYIDYn?k`8ER_fS`2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1639978564
+Z4 8top.vo
+Z5 Ftop.vo
+L0 21832
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1639979288.000000
+Z8 !s107 top.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|top.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vsim
+R1
+!i10b 1
+!s100 49ce<AHIl2S19DkIg;LEX0
+I7HDG6M^[5>5ZiWE;cUCa[0
+R2
+R0
+w1568983632
+8/home/b2cs/work/gate/top/../sim.v
+F/home/b2cs/work/gate/top/../sim.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 /home/b2cs/work/gate/top/../sim.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate/top/..|/home/b2cs/work/gate/top/../sim.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+/home/b2cs/work/gate/top/..
+R12
+vtop
+R1
+!i10b 1
+!s100 dMATk?3c4DQ6V6391SbD23
+Io`]D9EnzP00CFI1D0?[Zo2
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

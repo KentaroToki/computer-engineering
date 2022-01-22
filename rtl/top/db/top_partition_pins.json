@@ -1,0 +1,257 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "bz",
+					"strict" : false
+				},
+				{
+					"name" : "led[0]",
+					"strict" : false
+				},
+				{
+					"name" : "led[1]",
+					"strict" : false
+				},
+				{
+					"name" : "led[2]",
+					"strict" : false
+				},
+				{
+					"name" : "led[3]",
+					"strict" : false
+				},
+				{
+					"name" : "led[4]",
+					"strict" : false
+				},
+				{
+					"name" : "led[5]",
+					"strict" : false
+				},
+				{
+					"name" : "led[6]",
+					"strict" : false
+				},
+				{
+					"name" : "led[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_a[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[6]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_b[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sela[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sela[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sela[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_sela[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_selb[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_selb[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_selb[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg_selb[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rx_clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "rk_clk",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rtsw_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_b[4]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_d[4]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_c[4]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_a[4]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_c[2]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_d[1]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_d[3]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_d[2]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_c[1]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_b[3]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_a[2]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_c[0]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_b[2]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_a[3]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_a[1]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_a[0]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_c[3]",
+					"strict" : false
+				},
+				{
+					"name" : "psw_d[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

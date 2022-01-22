@@ -1,0 +1,104 @@
+\documentclass[a4j]{jarticle}
+% 用紙の余白の設定
+\topmargin 0mm
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth 160mm
+\textheight 240mm
+% ページ番号の設定
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\fancypagestyle{mypagestyle}{
+\lhead{}
+\rhead{}
+\cfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.0pt}
+}
+\pagestyle{mypagestyle}
+% 画像パッケージ
+\usepackage{graphicx}
+
+% 文書の開始
+\begin{document}
+
+\section{結果および検討}
+
+% HDLソースの挿入
+\begin{verbatim}
+case( adrs )
+    8'h00 : rom_data = 8'h01;
+    8'h01 : rom_data = 8'h20;
+    8'h02 : rom_data = 8'h05;
+    8'h03 : rom_data = 8'h22;
+    8'h04 : rom_data = 8'h03;
+    8'h05 : rom_data = 8'h20;
+    8'h06 : rom_data = 8'h05;
+    8'h07 : rom_data = 8'h23;
+    8'h08 : rom_data = 8'h02;
+    8'h09 : rom_data = 8'h22;
+    8'h0A : rom_data = 8'h04;
+    8'h0B : rom_data = 8'h22;
+    8'h0C : rom_data = 8'h06;
+    8'h0D : rom_data = 8'h02;
+    default : rom_data = 8'bxxxxxxxx;
+endcase
+\end{verbatim}
+
+% アセンブラプログラムの挿入
+\begin{verbatim}
+      LDI  32
+      ST   X
+LOOP: LD   X
+      ADDI 32
+      ST   Y
+      LD   X
+      ADD  X
+      ST   X
+      JUMP LOOP
+\end{verbatim}
+
+\section{結論}
+
+% 参考文献
+\begin{thebibliography}{9}
+    \bibitem{ref1} 情報科学実験指針, 東京都市大学情報科学科, 2019
+\end{thebibliography}
+
+% トレース表の挿入
+\input{table-gate.tex}
+\input{table-rtl.tex}
+
+% 波形の図の挿入
+\begin{figure}[p]
+    \vspace*{-20mm}
+    \begin{center}
+        \includegraphics[height=\textheight]{wave-gate1.eps}\\[10mm]
+        ゲートレベル記述のCPUの波形
+    \end{center}
+\end{figure}
+
+\begin{figure}[p]
+    \vspace*{-20mm}
+    \begin{center}
+        \includegraphics[height=\textheight]{wave-gate2.eps}\\[10mm]
+        ゲートレベル記述のCPUの波形（続き）
+    \end{center}
+\end{figure}
+
+\begin{figure}[p]
+    \vspace*{-20mm}
+    \begin{center}
+        \includegraphics[height=\textheight]{wave-rtl1.eps}\\[10mm]
+        RTL記述のCPUの波形
+    \end{center}
+\end{figure}
+
+\begin{figure}[p]
+    \vspace*{-20mm}
+    \begin{center}
+        \includegraphics[height=\textheight]{wave-rtl2.eps}\\[10mm]
+        RTL記述のCPUの波形（続き）
+    \end{center}
+\end{figure}
+
+\end{document}

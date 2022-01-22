@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/b2cs/work/gate/cpu/simulation/modelsim
+valu
+Z1 !s110 1639978137
+!i10b 1
+!s100 h[iE<8YdZWMgX9fUz_D=<3
+ICL?`<_0J]m2Dk?=8OhadA2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1568983632
+Z4 8/home/b2cs/work/gate/cpu.v
+Z5 F/home/b2cs/work/gate/cpu.v
+L0 76
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1639978137.000000
+Z8 !s107 /home/b2cs/work/gate/cpu.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/b2cs/work/gate|/home/b2cs/work/gate/cpu.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+/home/b2cs/work/gate
+Z12 tCvgOpt 0
+vcnt3
+R1
+!i10b 1
+!s100 :;j=ngN=Gz0[6WkQMW_>70
+IR[k:d`ldmHRDoeiM:QFQb3
+R2
+R0
+R3
+R4
+R5
+L0 58
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcpu
+R1
+!i10b 1
+!s100 T8CPdAlijYT;[^Wd=l72@1
+IeWfi3WW8ZaokO[;Uz;TK10
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vcsg
+R1
+!i10b 1
+!s100 PA[a44X;DFDhfd4IJaUTV3
+IWV`4JiFJLHZQ8o9j;BzEH0
+R2
+R0
+R3
+R4
+R5
+L0 95
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vreg8
+R1
+!i10b 1
+!s100 ?CDEInVdgcE8:mViZ2`A82
+IYUhYEj6PWZ=k4IXlzY`Kc1
+R2
+R0
+R3
+R4
+R5
+L0 41
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

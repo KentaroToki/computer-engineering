@@ -1,0 +1,7 @@
+Total logic elements: 735/28,848(3%)
+Total combinational functions: 670/28,848(2%)
+Dedicated logic registers: 383/28,848(1%)
+
+1200mV 100C Fmac Summary
+  Fmax: 128.57MHz
+
